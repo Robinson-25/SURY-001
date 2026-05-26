@@ -1,0 +1,47 @@
+{
+  "identity": {
+    "name": {
+      "value": "Tupac",
+      "updated": "2026-05-21"
+    },
+    "honorific": {
+      "value": "Se\u00f1or",
+      "updated": "2026-05-17"
+    },
+    "name_spelling": {
+      "value": "T\u00fapac (with accent on U)",
+      "updated": "2026-05-17"
+    },
+    "city": {
+      "value": "Lima, Peru",
+      "updated": "2026-05-17"
+    },
+    "mood": {
+      "value": "festive",
+      "updated": "2026-05-17"
+    },
+    "nickname": {
+      "value": "Chief"
+    }
+  },
+  "preferences": {
+    "address_form": {
+      "value": "Se\u00f1or",
+      "updated": "2026-05-17"
+    }
+  },
+  "projects": {
+    "code_project_status": {
+      "value": "User deleted the entire code project.",
+      "updated": "2026-05-17"
+    }
+  },
+  "relationships": {},
+  "wishes": {},
+  "notes": {},
+  "habits": {
+    "language_practice": {
+      "value": "English conversation practice with Sury"
+    }
+  }
+}
