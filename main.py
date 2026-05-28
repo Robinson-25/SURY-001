@@ -303,7 +303,8 @@ except ImportError:
 try:
     from actions.accessibility          import accessibility, eye_tracking, micro_movement, task_simplify, routine_gamify
 except ImportError:
-    accessibility = None
+    def accessibility(*args, **kwargs):
+        return "La herramienta de accesibilidad no está disponible en este momento."
     eye_tracking = None
     micro_movement = None
     task_simplify = None
@@ -340,7 +341,7 @@ def get_base_dir():
 BASE_DIR        = get_base_dir()
 API_CONFIG_PATH = BASE_DIR / "config" / "api_keys.json"
 PROMPT_PATH     = BASE_DIR / "core" / "prompt.txt"
-LOG_PATH        = BASE_DIR / "jarvis.log"
+LOG_PATH        = BASE_DIR / "sury.log"
 
 # ── Redirect output to log file (pythonw.exe has no console) ─
 try:
@@ -2218,6 +2219,8 @@ class JarvisLive:
             triggered = check_phrase_triggers(user_text)
             if triggered:
                 for rule in triggered:
+                    if not isinstance(rule, dict):
+                       continue
                     action = rule.get("action", {})
                     name   = rule.get("name", "?")
                     self.ui.write_log(f"⚡ Automatización: {name}")

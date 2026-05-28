@@ -1,7 +1,7 @@
 {
   "identity": {
     "name": {
-      "value": "Tupac",
+      "value": "SURY",
       "updated": "2026-05-21"
     },
     "honorific": {
@@ -22,6 +22,9 @@
     },
     "nickname": {
       "value": "Chief"
+    },
+    "creator_name": {
+      "value": "Robinson"
     }
   },
   "preferences": {
@@ -36,9 +39,32 @@
       "updated": "2026-05-17"
     }
   },
-  "relationships": {},
+  "relationships": {
+    "partner_name": {
+      "value": "Miquela"
+    }
+  },
   "wishes": {},
-  "notes": {},
+  "notes": {
+    "confused_time": {
+      "value": "User was confused about the exact time of the morning brief. Stated 8:50/7:50, actual time was 08:09:37 AM UTC-05:00."
+    },
+    "logo_preference": {
+      "value": "Lemon concept, minimalist, yellow and green"
+    },
+    "personal_data_code": {
+      "value": "User wants to auto-manage personal data and code, including repository management."
+    },
+    "time_confusion": {
+      "value": "User insists current time is 8 PM, not 1 AM UTC. Must verify and clarify timezone."
+    },
+    "time_confusion_2": {
+      "value": "User insists it's early and not 12 PM UTC, contradicting system time."
+    },
+    "time_confusion_3": {
+      "value": "User insists time is 7:50, contradicting 12:45 PM UTC system time."
+    }
+  },
   "habits": {
     "language_practice": {
       "value": "English conversation practice with Sury"
